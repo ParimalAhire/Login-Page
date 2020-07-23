@@ -25,9 +25,48 @@ padding: 13px 0
 }
 .text-box {
     width: 100px;
+    height: 60px;
     overflow: hidden;
     font-size: 20px;
     padding: 9px 0;
     margin: 9px 0;
     border-bottom: 1px solid limegreen;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+    transition: 0.5s;;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+        padding: 14px 30px ;
+   height 20px;
+  font-size: 20px;
+}
+.active:hover{
+    color: black;
+    background-color: lightblue;
+}
+.topnav a:hover:not(.active) {
+  background-color: #ddd;
+  color: black;
+    
+}
+.active {
+  background-color: #4CAF50;
+}
+#lb{
+    float: right;
+}
+img{
+    width: 25px;
+    height: 25px;
+}
+#fb{
+    text-align: right;
+    color: lightblue;
 }
